@@ -1,8 +1,30 @@
 body{
-    background-color: antiquewhite;
+    background-color: #C0C0C0;
 }
 
 header{
-    background-color: blue;
+    background-color: #4682B4;
 }
 
+
+
+logo{
+    background-color:#FFFF00 ;
+}
+
+
+nav{
+    background-color: #87CEEB;
+}
+
+main{
+    background-color: #3CB371;
+}
+
+section{
+    background-color: #BC8F8F;
+}
+
+footer{
+    background-color: #8A2BE2;
+}
