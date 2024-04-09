@@ -4,11 +4,12 @@ body{
 
 header{
     background-color: #4682B4;
+    padding: 3%;
 }
 
 
 
-logo{
+.logo{
     background-color:#FFFF00 ;
 }
 
@@ -19,6 +20,9 @@ nav{
 
 main{
     background-color: #3CB371;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 section{
@@ -27,4 +31,5 @@ section{
 
 footer{
     background-color: #8A2BE2;
+    padding: 3%;
 }
