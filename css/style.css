@@ -33,3 +33,23 @@ footer{
     background-color: #8A2BE2;
     padding: 3%;
 }
+
+.cabecalho{
+    padding: 3%;
+}
+
+.rodape{
+    padding: 3%;
+}
+
+h1,h2{
+    line-height: 3;
+}
+
+p{
+    line-height: 1.5;
+}
+
+ul li{
+    line-height: 1.5;
+}
