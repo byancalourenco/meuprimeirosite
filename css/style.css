@@ -1,6 +1,18 @@
+
+
+/* Cores do meu site:
+DarkRed - #8B0000	
+DarkGray - #A9A9A9	
+ */
+
+
+
+
+
 body{
     background-color: #C0C0C0;
     font-family: "Josefin Sans", sans-serif;
+    background-image: url(../img/fundo-site.avif);
 }
 
 header{
