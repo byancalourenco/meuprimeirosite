@@ -1,18 +1,8 @@
 
-
-/* Cores do meu site:
-DarkRed - #8B0000	
-DarkGray - #A9A9A9	
- */
-
-
-
-
-
 body{
     background-color: #C0C0C0;
     font-family: "Josefin Sans", sans-serif;
-    background-image: url(../img/fundo-site.avif);
+    background-image: url(../img/estrelado-2.jpeg);
 }
 
 header{
@@ -23,8 +13,9 @@ header{
 
 
 .logo{
-    background-color:#FFFF00 ;
+    background-color:hsl(0, 0%, 72%) ;
 }
+
 
 
 nav{
@@ -32,18 +23,18 @@ nav{
 }
 
 main{
-    background-color: #3CB371;
+    background-color: hsl(9, 84%, 46%);
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 
 section{
-    background-color: #BC8F8F;
+    background-color: hsl(0, 0%, 72%);
 }
 
 footer{
-    background-color: #8A2BE2;
+    background-color: #4682B4;
     padding: 3%;
 }
 
@@ -59,6 +50,11 @@ footer{
     line-height: 3;
     text-align: center;
     font-weight: bold;
+    color: #FFFF00	;
+}
+
+.sub_titulos{
+    color: #0000FF	;
 }
 
 p{
@@ -79,6 +75,10 @@ h2{
     font-size: 1.5em;
 }
 
+h3{
+    font-size: 1.4em;
+}
+
 table{
     border-collapse: collapse;
     width: 80%;
@@ -95,4 +95,10 @@ th,td{
 
 tr:nth-child(even){
     background-color: #C0C0C0;
+}
+
+img{
+    width: 50%;
+    display: block;
+   
 }
