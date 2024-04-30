@@ -31,7 +31,7 @@ main{
 }
 
 section{
-    background-color: hsl(0, 0%, 72%);
+    background-color: #000000	;
 }
 
 footer{
@@ -55,17 +55,20 @@ footer{
 }
 
 .sub_titulos{
-    color: #0000FF	;
+    color:  #FFFF00;
+    text-align: center;
 }
 
 p{
     line-height: 1.5;
     font-size: 1.2em;
+    color: aliceblue;
 }
 
 ul li{
     line-height: 1.5;
     font-size: 1.2em;
+    color: aliceblue;
 }
 
 h1{
@@ -87,15 +90,18 @@ table{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2%;
+    color:#C0C0C0 ;
 }
 
 th,td{
     border: 5px dashed #8B0000;
     padding: 1.5%;	
+    color: aliceblue;
 }
 
 tr:nth-child(even){
-    background-color: #C0C0C0;
+    background-color:  #000000	;
+    ;
 }
 
 img{
