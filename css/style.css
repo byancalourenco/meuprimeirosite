@@ -14,9 +14,7 @@ header{
 
 
 
-.logo{
-    background-color:hsl(0, 0%, 72%) ;
-}
+
 
 
 
@@ -38,6 +36,10 @@ section{
 footer{
     background-color: #4682B4;
     padding: 3%;
+}
+
+.logo{
+    background-color:hsl(0, 0%, 72%) ;
 }
 
 .cabecalho{
