@@ -5,7 +5,6 @@ body{
     background-image: url(../img/estrelado-2.jpeg);
 }
 
-
 header{
     background-color: #4682B4;
     padding: 3%;
@@ -13,7 +12,9 @@ header{
 
 nav{
     background-color: #87CEEB;
+    
 }
+
 
 main{
     background-color: hsl(9, 84%, 46%);
