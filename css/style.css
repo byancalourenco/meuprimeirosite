@@ -12,7 +12,7 @@ header{
 
 
 nav{
-    background-color: #87CEEB;
+    background-color: #C0C0C0;
 
 }
 
@@ -132,6 +132,10 @@ img{
     
 }
 
+.stan{
+    margin: auto;
+    display: flex;
+}
 
 /* CLASSES */
 
@@ -191,16 +195,17 @@ img{
     margin-right: 1%;
 }
 
-.container {  
-    display: grid;  
-    grid-template-columns: 100px 100px 100px;  
-    grid-template-rows: 50px 50px;  
-}
 
 .espaco{
     margin-bottom: 2%;
 }
 
+.menu{
+    justify-content: space-around;
+    display: flex;
+}
 
-
+.lista{
+    color:aliceblue ;
+}
 
