@@ -1,4 +1,6 @@
 
+
+
 body{
     background-color: #C0C0C0;
     font-family: "Josefin Sans", sans-serif;
@@ -34,6 +36,79 @@ footer{
 
 
 
+
+
+
+/* CABEÇALHO E RODAPE */
+
+
+.logo{
+    background-color:hsl(0, 0%, 72%) ;
+}
+
+.cabecalho{
+    padding: 3%;
+}
+
+.rodape{
+    padding: 3%;
+}
+
+
+.logomarvel{
+    width: 15%;
+}
+
+
+.menu{
+    justify-content: space-around;
+    display: flex;
+}
+
+
+
+
+/* TEXTOS */
+
+
+p{
+    line-height: 1.5;
+    font-size: 1.2em;
+    color: aliceblue;
+}
+
+ul li{
+    line-height: 1.5;
+    font-size: 1.2em;
+    color: aliceblue;
+}
+
+h1{ 
+    font-size: 2em;
+}
+
+h2{ 
+    font-size: 1.5em;
+}
+
+h3{ 
+    font-size: 1.4em;
+}
+
+.titulos{
+    line-height: 3;
+    text-align: center;
+    font-weight: bold;
+    color: #FFFF00	;
+}
+
+.sub_titulos{
+    color:  #FFFF00;
+    text-align: center;
+}
+
+
+
 /* LINKS :) */
 
 
@@ -65,36 +140,6 @@ a:active {
 
 
 
-/* TEXTOS */
-
-
-p{
-    line-height: 1.5;
-    font-size: 1.2em;
-    color: aliceblue;
-}
-
-ul li{
-    line-height: 1.5;
-    font-size: 1.2em;
-    color: aliceblue;
-}
-
-
-/* H1, H2, H3*/
-
-
-h1{ /* TÍTULO DO SITE */
-    font-size: 2em;
-}
-
-h2{ /* SUB TÍTULOS */
-    font-size: 1.5em;
-}
-
-h3{ /* SUB TÍTULOS 2 */
-    font-size: 1.4em;
-}
 
 
 /* TABELA */
@@ -122,6 +167,7 @@ tr:nth-child(even){
 }
 
 
+
 /* IMAGENS */
 
 
@@ -131,43 +177,27 @@ img{
     
 }
 
-.stan{
-    margin: auto;
-    display: flex;
+.direita{
+    float:right;
+    width: 40%;
+    margin-left: 2%;
 }
 
-/* CLASSES */
-
-
-.logo{
-    background-color:hsl(0, 0%, 72%) ;
-}
-
-.cabecalho{
-    padding: 3%;
-}
-
-.rodape{
-    padding: 3%;
-}
-
-.titulos{
-    line-height: 3;
-    text-align: center;
-    font-weight: bold;
-    color: #FFFF00	;
-}
-
-.sub_titulos{
-    color:  #FFFF00;
-    text-align: center;
+.imggaleria{
+    width: 90%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 
-.logomarvel{
-    width: 15%;
+.espaco{
+    margin-bottom: 2%;
 }
 
+
+
+
+/* GALERIA DE IMAGENS */
 
 .linha{
     display: flex;
@@ -188,23 +218,12 @@ img{
 }
 
 
-.imggaleria{
-    width: 90%;
-    margin-left: 1%;
-    margin-right: 1%;
-}
 
-
-.espaco{
+/* VIDEOS */
+.videos{
+    margin: 0 auto;
+    width: 50%;
+    display: block;
     margin-bottom: 2%;
-}
-
-.menu{
-    justify-content: space-around;
-    display: flex;
-}
-
-.lista{
-    color:aliceblue ;
 }
 
