@@ -27,8 +27,16 @@ main{
 }
 
 section{
-    background-color: #000000	;
+    background-color: #000000;
 }
+
+
+@media(max-width: 1200x){
+    section{
+        width: 1000x;
+    }
+}
+
 
 footer{
     background-color: #4682B4;
@@ -161,7 +169,11 @@ tr:nth-child(even){
     ;
 }
 
-
+@media(max-width: 1200x){
+    table{
+        width:300x;
+    }
+}
 
 /* IMAGENS */
 
@@ -188,7 +200,6 @@ img{
 .espaco{
     margin-bottom: 2%;
 }
-
 
 
 
