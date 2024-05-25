@@ -108,6 +108,7 @@ h3{
 .sub_titulos{
     color:  #FFFF00;
     text-align: center;
+    margin-bottom: 2%;
 }
 
 
@@ -171,7 +172,7 @@ tr:nth-child(even){
 
 @media(max-width: 1200x){
     table{
-        width:300x;
+        width:100x;
     }
 }
 
@@ -181,6 +182,8 @@ tr:nth-child(even){
 img{
     width: 50%;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
@@ -225,11 +228,5 @@ img{
 
 
 
-/* VIDEOS */
-.videos{
-    margin: 0 auto;
-    width: 50%;
-    display: block;
-    margin-bottom: 2%;
-}
+
 
