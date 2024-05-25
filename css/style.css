@@ -43,11 +43,6 @@ footer{
     padding: 3%;
 }
 
-
-
-
-
-
 /* CABEÇALHO E RODAPE */
 
 
@@ -172,12 +167,13 @@ tr:nth-child(even){
 
 @media(max-width: 1200x){
     table{
-        width:100x;
+        width:300x;
     }
 }
 
-/* IMAGENS */
 
+
+/* IMAGENS */
 
 img{
     width: 50%;
