@@ -44,6 +44,8 @@ footer{
     padding: 3%;
 }
 
+
+
 /* CABEÇALHO E RODAPE */
 
 
@@ -74,24 +76,29 @@ p{
     line-height: 1.5;
     font-size: 1.2em;
     color: aliceblue;
+    text-align: center
 }
 
 ul li{
     line-height: 1.5;
     font-size: 1.2em;
     color: aliceblue;
+    text-align: center
 }
 
 h1{ 
     font-size: 2em;
+    text-align: center
 }
 
 h2{ 
     font-size: 1.5em;
+    text-align: center
 }
 
 h3{ 
     font-size: 1.4em;
+    text-align: center
 }
 
 .titulos{
@@ -106,6 +113,8 @@ h3{
     text-align: center;
     margin-bottom: 2%;
 }
+
+
 
 
 
@@ -145,8 +154,7 @@ a:active {
 /* TABELA */
 
 
-table{
-    border-collapse: collapse;
+/* table{
     width: 80%;
     font-size: 1.2em;
     margin-left: auto;
@@ -163,15 +171,14 @@ th,td{
 
 tr:nth-child(even){
     background-color:  #000000	;
-    ;
+    
 }
 
-@media(max-width: 1200x){
-    table{
-        width:300x;
+@media only screen and (max-width: 400px) {
+    table {
+      width: 50%;
     }
-}
-
+  } */
 
 
 /* IMAGENS */
