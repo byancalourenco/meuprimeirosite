@@ -303,3 +303,25 @@ img:hover {
 */
 
 
+/* TORRE */
+
+.torre_esquerda{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.torre{
+    position: relative;
+}
+
+
+.img_torre{
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    display: block;
+}
+
