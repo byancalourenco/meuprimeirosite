@@ -249,9 +249,7 @@ figure{
     }
 }
 
-img:hover {
-    opacity: 0.5;
-  }
+
 
 /* CARDS */
 
@@ -261,11 +259,25 @@ img:hover {
     justify-content: space-between;
 }
 
-.card{
+/* .card{
     width: calc(33.33% - 20px); 
     margin-bottom: 20px;
     padding: 20px;
     box-sizing: border-box;
+}
+
+.img_cards{
+    width: 90%;
+} */
+
+.col4{
+    width: calc(33.33% - 20px); 
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #8B0000;
+    border: 2px solid #8B0000;
+    border-radius: 25px
 }
 
 /* telas médias */
@@ -283,44 +295,69 @@ img:hover {
     }
 }
 
-/*.img_cards{
-    width: 60%;
-}
-
-@media screen and (max-width: 480px){
-    .img_cards {
-        width: 50%; 
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .img_cards {
-        width: calc(50% - 20px); 
-    }
-}
-
-*/
-
 
 /* TORRE */
 
-.torre_esquerda{
+.container{
+    position: relative;
+    color: blanchedalmond;
+    font-size: 1.3em;
+}
+
+
+.img_com_texto{
+    width: 100%;
+}
+
+
+.bottom-left{
+    position: absolute;
+    bottom: 8px;  /* 8 pixels de baixo pra cima */
+    left: 16px;   /* 16 pixels para o lado */
+    background-color: black;
+    color: white;
+    padding: 0.5%;  
+}
+
+
+.top-left{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    background-color: black;
+    color: white;
+    padding: 0.5%;
+}
+
+
+.top-right{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    background-color: black;
+    color: white;
+    padding: 0.5%;
+}
+
+
+.bottom-right{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    background-color: black;
+    color: white;
+    /* padding-left: 20px;
+    padding-right: 25px; */
+    padding: 0.5%;
+}
+
+
+.centered{
     position: absolute;
     top: 50%;
-    width: 100%;
-    text-align: center;
-    font-size: 18px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    padding: 0.5%;
 }
-
-.torre{
-    position: relative;
-}
-
-
-.img_torre{
-    margin-right: auto;
-    margin-left: auto;
-    width: 80%;
-    display: block;
-}
-
