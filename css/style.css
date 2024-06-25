@@ -280,6 +280,7 @@ figure{
     border-radius: 25px
 }
 
+
 /* telas médias */
 @media screen and (max-width: 768px) {
     .card {
