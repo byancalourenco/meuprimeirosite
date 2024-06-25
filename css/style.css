@@ -259,27 +259,27 @@ figure{
     justify-content: space-between;
 }
 
-/* .card{
-    width: calc(33.33% - 20px); 
-    margin-bottom: 20px;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-.img_cards{
-    width: 90%;
-} */
 
 .col4{
     width: calc(33.33% - 20px); 
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 10px;
     box-sizing: border-box;
-    background-color: #8B0000;
-    border: 2px solid #8B0000;
+    background-color: #800000;
+    border: 2px solid #800000;
     border-radius: 25px
 }
 
+
+
+@media (max-width: 700px) {
+
+    .col4{
+        width: 100%;
+        float: none;
+        box-sizing: border-box;   
+    }
+}
 
 /* telas médias */
 @media screen and (max-width: 768px) {
