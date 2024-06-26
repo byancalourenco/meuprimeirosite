@@ -22,14 +22,17 @@
 
         </div>
 
-        <nav>
+        <nav id="menu">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
             <ul>
-                <li class="menu"><a href="#criador"> Criador </a></li>
-                <li class="menu"><a href="#fundacao"> Fundação </a></li>
-                <li class="menu"><a href="#historia"> História da Marvel </a></li>
-                <li class="menu"><a href="#maiores"> Maiores Bilheterias </a></li>
-                <li class="menu"><a href="#melhores"> Melhores filmes </a></li>
-                <li class="menu"><a href="index2.html"> Mais informações </a></li>
+                <li class="menu"><a href="#criador"onclick="document.getElementById('menu-toggle').click()"> Criador </a></li>
+                <li class="menu"><a href="#fundacao"onclick="document.getElementById('menu-toggle').click()"> Fundação </a></li>
+                <li class="menu"><a href="#historia"onclick="document.getElementById('menu-toggle').click()"> História da Marvel </a></li>
+                <li class="menu"><a href="#maiores"onclick="document.getElementById('menu-toggle').click()"> Maiores Bilheterias </a></li>
+                <li class="menu"><a href="#melhores"onclick="document.getElementById('menu-toggle').click()"> Melhores filmes </a></li>
+                <li class="menu"><a href="index2.html"onclick="document.getElementById('menu-toggle').click()"> Mais informações </a></li>
             </ul>
         </nav>
 
