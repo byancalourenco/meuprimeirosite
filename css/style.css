@@ -100,6 +100,15 @@ nav ul li a:hover {
 }
 
 
+:target {
+    scroll-margin-top: 84px; 
+  }   /* PARAR ONDE EU QUERO */
+  
+html{
+    scroll-behavior: smooth;
+}
+
+
 /* TEXTOS */
 
 
