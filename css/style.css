@@ -353,6 +353,38 @@ figure{
     padding: 0.5%;
 }
 
+.letraform{
+    color: azure;
+}
+
+.bordadoform{
+    background-color: rgba(128, 128, 128, 0.3) ;
+    padding: 20px;
+    border-radius: 25px;
+    margin-top: 1%;
+    box-sizing: border-box;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  label {
+    display: inline-block;
+  }
+
+  input[type=text], select, textarea, input[type=tel], input[type=email] {
+    width: 90%; /* tamanho dos espaços para escrever */
+    padding: 10px; 
+    border-radius: 10px; /* deixar cantos arredondados*/
+    resize: vertical;
+  }
+ 
+  .botao{
+    padding: 10px;
+    align-items: center;
+  }
+
+
+
 /* MEDIA */
 
 
